@@ -231,6 +231,12 @@ testing and troubleshooting. The following is a suggested order of operations.
   may indicate a short, an incorrectly installed IC or similar. With the video
   cable connected the resistance will drop to around 150 Ohms.
 
+### Errata
+If you're building from an older version of this repository, you may be missing 
+a connection between pin 81 and GND. You'll need to connect pin 81 to GND with a 
+simple bodge. Two known issues caused by this are general flakiness when reading
+the region register, and issues reading/writing to the serial port.
+
 
 ## Thanks/Credits
 
