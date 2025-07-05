@@ -10,7 +10,7 @@ It should align up with the pin 81 on IC6 to GND on the EXT Header.
 
 I made the flex long, so it can be held done with something as it is quite small otherwise.
 
-##Flex PCB Production
+## Flex PCB Production
 
 When adding gerbers to your PCB Manufacturer, please choose the flex pcb option and add a note that you want to cut across the pads.
 
