@@ -6919,17 +6919,6 @@
 		)
 		(uuid aa3a8f96-1122-4b42-9052-80931c7a83e0)
 	)
-	(text "(Bridge for other)"
-		(exclude_from_sim no)
-		(at 109.855 193.675 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4de69eed-3ad7-4ca5-9b25-0803d3324756")
-	)
 	(text "VA1 ONLY"
 		(exclude_from_sim no)
 		(at 91.44 49.53 0)
@@ -6941,9 +6930,9 @@
 		)
 		(uuid "6f925761-defe-4166-a4dd-7b713bad56af")
 	)
-	(text "THT bodges on later 32X main\nboards with SCA chip. If your\ndonor has this, CUT THE TRACE\nbefore installing the diode here.\nOtherwise leave bridge intact."
+	(text "These parts replicate THT bodges on some\n32X main boards but should not be required.\nSee note in README.\n"
 		(exclude_from_sim no)
-		(at 97.79 179.07 0)
+		(at 84.074 180.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15966,11 +15955,11 @@
 		(at 108.585 198.755 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4f7feb4c-6703-481c-8323-ebaf4a376e5d")
-		(property "Reference" "C695"
+		(property "Reference" "C553"
 			(at 102.87 196.215 0)
 			(effects
 				(font
@@ -15979,7 +15968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SCA only"
+		(property "Value" "100pF"
 			(at 110.49 201.93 0)
 			(effects
 				(font
@@ -16051,7 +16040,7 @@
 		(instances
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/a9caee2e-423b-443e-a11f-5841882e2685"
-					(reference "C695")
+					(reference "C553")
 					(unit 1)
 				)
 			)
@@ -16289,9 +16278,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66348d97-5272-4425-8bb2-ff050d295559")
 		(property "Reference" "D699"
 			(at 118.11 181.61 0)
@@ -16301,7 +16290,7 @@
 				)
 			)
 		)
-		(property "Value" "SCA only"
+		(property "Value" ""
 			(at 118.11 188.595 0)
 			(effects
 				(font

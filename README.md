@@ -144,12 +144,12 @@ that, when it come to original parts, in essence it is about moving the donors'
 parts to the new board. If it's on the donor, use it; if it's not, then it was never
 required in the first place.
 
-For 32X main boards with the SCA chip, pay particular attention to `D699`. If your
-donor 32X has a THT diode for `/VRES` on the main board you will need to install this
-or an SMD equivalent at this location. The footprint is however bridged, as on other
-revisions there is no diode and this is simply a direct connection. If installing the
-diode you will therefore need to cut the trace between the pads. The accompanying
-capacitor may be installed at location `C695`.
+If your donor 32X has a THT diode for `/VRES` on the main board, experimental
+evidence suggest this does not need to be transferred. Just in case, the footprint
+`D699` is provided should you require it. The footprint is however bridged, as on
+other revisions there is no diode and this is simply a direct connection. If
+installing the diode you will therefore need to cut the trace between the pads.
+The accompanying capacitor may be installed at location `C553`.
 
 All SMD passives on the board have 0805 or larger footprints for easier soldering.
 Inductor footprints are 1210 but you can of course use narrower such as 1206.
