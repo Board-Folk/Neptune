@@ -5755,6 +5755,16 @@
 		)
 		(uuid "25451e91-8f46-4f8a-abb9-e5f3e88ab6a4")
 	)
+	(text "C11 may or may not\nbe present depending\non MD2 revision."
+		(exclude_from_sim no)
+		(at 278.638 268.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7126468b-ab3d-47b5-b5ea-2a9fb37ffc92")
+	)
 	(junction
 		(at 292.1 222.25)
 		(diameter 0)
@@ -15945,7 +15955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "33pF*"
 			(at 265.43 262.2549 0)
 			(effects
 				(font
