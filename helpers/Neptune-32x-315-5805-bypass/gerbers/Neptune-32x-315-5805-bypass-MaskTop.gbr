@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*%
-%TF.CreationDate,2024-02-10T12:17:18+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2025-11-13T11:37:52+01:00*%
 %TF.ProjectId,Neptune-32x-315-5805-bypass,4e657074-756e-4652-9d33-32782d333135,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.8) date 2024-02-10 12:17:18*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-11-13 11:37:52*
 %MOMM*%
 %LPD*%
 G01*
