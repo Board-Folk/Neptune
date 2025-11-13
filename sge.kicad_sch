@@ -15937,7 +15937,7 @@
 		(fields_autoplaced yes)
 		(uuid "351c1552-70a2-4e4e-a54a-c845ae849933")
 		(property "Reference" "C11"
-			(at 265.43 259.715 0)
+			(at 265.43 259.7149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15945,8 +15945,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF (PAL only)"
-			(at 265.43 262.255 0)
+		(property "Value" "33pF"
+			(at 265.43 262.2549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
