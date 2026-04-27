@@ -10300,6 +10300,12 @@
 		(uuid "22cc4bf6-e8cf-4c2a-855c-02c46726e4ba")
 	)
 	(junction
+		(at 36.83 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f27c79-2bda-466e-bc06-a22f479ffb3b")
+	)
+	(junction
 		(at 221.615 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10944,10 +10950,6 @@
 		(uuid "b51effc9-0fd6-4686-819c-e69007ebaeb0")
 	)
 	(no_connect
-		(at 84.455 163.83)
-		(uuid "cb5aae60-6020-420a-988e-916b7750311f")
-	)
-	(no_connect
 		(at 288.29 198.755)
 		(uuid "cd5657e7-89dc-44c4-8b36-9c0f18af9fa5")
 	)
@@ -11458,6 +11460,15 @@
 			(type default)
 		)
 		(uuid "72f7a74f-76f5-40c4-b8db-cec68da13eb7")
+	)
+	(bus_entry
+		(at 100.33 163.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b80294-e40c-4a00-9b6d-1bbe312d71b5")
 	)
 	(bus_entry
 		(at 36.83 176.53)
@@ -13451,6 +13462,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 171.45) (xy 48.895 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e24be95-7013-4ff0-96f6-cb216702176e")
+	)
+	(wire
+		(pts
 			(xy 33.02 86.36) (xy 33.02 89.535)
 		)
 		(stroke
@@ -14228,6 +14249,16 @@
 			(type default)
 		)
 		(uuid "5bdbec92-f8ee-490c-972a-8368d8a8e00c")
+	)
+	(wire
+		(pts
+			(xy 40.64 173.99) (xy 39.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be28018-3243-46ea-9ed1-308da1067f4c")
 	)
 	(bus
 		(pts
@@ -15491,6 +15522,16 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 163.83) (xy 90.17 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89793f4c-e647-447f-a8f2-1fc539623836")
+	)
+	(wire
+		(pts
 			(xy 254.635 120.65) (xy 247.015 120.65)
 		)
 		(stroke
@@ -15598,6 +15639,16 @@
 			(type default)
 		)
 		(uuid "8db31e00-92f8-4e9c-8f1d-590390519055")
+	)
+	(wire
+		(pts
+			(xy 97.79 163.83) (xy 100.33 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfb7afe-0da3-4915-aba3-595793c49afc")
 	)
 	(wire
 		(pts
@@ -17129,15 +17180,15 @@
 		)
 		(uuid "c0fc9532-5f4f-4738-8f1b-b170fcfc1bfb")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 39.37 173.99) (xy 48.895 173.99)
+			(xy 36.83 185.42) (xy 102.87 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1f25a33-491f-4983-9f40-8d77c1045fc3")
+		(uuid "c1c110f5-9090-4985-bd2f-785134c3962b")
 	)
 	(wire
 		(pts
@@ -17361,7 +17412,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 171.45) (xy 48.895 171.45)
+			(xy 39.37 171.45) (xy 40.64 171.45)
 		)
 		(stroke
 			(width 0)
@@ -18009,6 +18060,16 @@
 		)
 		(uuid "df14cd33-ebbc-40cd-9f80-4fdda538beb0")
 	)
+	(bus
+		(pts
+			(xy 102.87 166.37) (xy 102.87 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08162ed-62bc-4025-872b-0069af6b6655")
+	)
 	(wire
 		(pts
 			(xy 281.305 137.795) (xy 314.325 137.795)
@@ -18639,6 +18700,16 @@
 		)
 		(uuid "fdf18998-2d1a-4647-b757-7edbad2cfa34")
 	)
+	(wire
+		(pts
+			(xy 48.26 173.99) (xy 48.895 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf9b7f8-317b-4e01-9c67-5fd15fd97a20")
+	)
 	(bus
 		(pts
 			(xy 214.63 55.88) (xy 214.63 58.42)
@@ -18798,6 +18869,16 @@
 			(justify left bottom)
 		)
 		(uuid "14002e39-1dd3-43b9-9e95-caba8db531f0")
+	)
+	(label "PA6"
+		(at 100.33 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "173191d8-8c0c-4240-9e4c-f25ba209f769")
 	)
 	(label "CTA10"
 		(at 191.77 43.18 0)
@@ -19060,7 +19141,7 @@
 		(uuid "55acecae-b558-40ce-adee-0c2e4d661bd5")
 	)
 	(label "PA5"
-		(at 45.72 171.45 180)
+		(at 39.37 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19550,7 +19631,7 @@
 		(uuid "baae53f5-154b-4349-af9d-53eb99d0a898")
 	)
 	(label "PA4"
-		(at 45.72 173.99 180)
+		(at 39.37 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27517,6 +27598,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 44.45 173.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "677ab604-b88c-4d2c-82dd-633f35c6771d")
+		(property "Reference" "R710"
+			(at 44.45 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 48.26 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 44.45 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C136899"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08051K00FKEA"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba5159b-8814-453c-b7d3-d53f5d3be5d2")
+		)
+		(pin "2"
+			(uuid "01a0afd7-aba1-4a42-9fe7-73926cf6440d")
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
+					(reference "R710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.905 118.11 0)
 		(unit 1)
@@ -27772,6 +27948,101 @@
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
 					(reference "C960")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 163.83 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "692b8a87-4b11-46d9-a0db-3c0d1a728d48")
+		(property "Reference" "R712"
+			(at 96.266 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 95.25 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 93.98 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C136899"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08051K00FKEA"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0474bb21-3f41-44f7-8fd0-54e489f1c960")
+		)
+		(pin "2"
+			(uuid "dcb03901-51b7-42e1-9b9f-1ff9a80e6b09")
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
+					(reference "R712")
 					(unit 1)
 				)
 			)
@@ -35317,6 +35588,101 @@
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 171.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebceb4b5-d949-42d0-861d-f11e0be364be")
+		(property "Reference" "R711"
+			(at 44.196 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 48.26 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 44.45 169.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C136899"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08051K00FKEA"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3552c1d1-5cf5-42ea-9829-7c07e60dff17")
+		)
+		(pin "2"
+			(uuid "4f1b7d62-fc06-4b78-b373-9f51944e2c1b")
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
+					(reference "R711")
 					(unit 1)
 				)
 			)
