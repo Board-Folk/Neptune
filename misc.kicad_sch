@@ -10161,6 +10161,16 @@
 		)
 		(uuid "0b3e1f76-d4cc-4adc-8a32-bfa8f46e057f")
 	)
+	(text "~{M3} is not currently used\nbut routed here for potential\nfuture expansion."
+		(exclude_from_sim no)
+		(at 85.344 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ede5650-f47b-47fb-bf4b-c78253c513b3")
+	)
 	(text "Test point for\n32X bypass"
 		(exclude_from_sim no)
 		(at 185.42 129.54 0)
@@ -13943,6 +13953,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 168.91) (xy 99.06 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1ca556-dbc4-4b56-beb6-bf4b451b963e")
+	)
+	(wire
+		(pts
 			(xy 379.73 158.115) (xy 379.73 159.385)
 		)
 		(stroke
@@ -14063,7 +14083,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 168.91) (xy 88.265 168.91)
+			(xy 84.455 168.91) (xy 99.06 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15723,6 +15743,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 182.245) (xy 95.25 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bdc4b5-827f-48ad-b3b2-1be39b7d3f64")
+	)
+	(wire
+		(pts
 			(xy 219.075 47.625) (xy 219.075 50.165)
 		)
 		(stroke
@@ -17250,6 +17280,16 @@
 			(type default)
 		)
 		(uuid "c3ada1dd-efef-4354-bb3e-8a031a8d23bf")
+	)
+	(wire
+		(pts
+			(xy 83.185 182.245) (xy 87.63 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c4b2ee-bcc3-4e0b-835a-977bb64d378d")
 	)
 	(bus
 		(pts
@@ -21053,22 +21093,22 @@
 	)
 	(global_label "~{M3}"
 		(shape input)
-		(at 88.265 168.91 0)
+		(at 83.185 182.245 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bfd9df4b-e987-43d5-8cad-d3e2bcc4fc07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.9111 168.91 0)
+			(at 77.5389 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -23376,6 +23416,103 @@
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 182.245 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "16d23b0d-afc1-44d9-ad37-c9ddb80fff19")
+		(property "Reference" "R708"
+			(at 88.9 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 90.297 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 91.44 184.023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "P220CCT-ND"
+			(at 91.44 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C844937"
+			(at 91.44 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 91.44 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "595cd7f9-8c7e-425d-88f1-7d658a58f736")
+		)
+		(pin "2"
+			(uuid "88c9f63a-c1c2-467c-801d-3e53f5260034")
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
+					(reference "R708")
 					(unit 1)
 				)
 			)
