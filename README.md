@@ -47,9 +47,7 @@ are any outstanding fixes that should be applied to your particular board revisi
 * NOT compatible with the Japanese Mega Drive 2 case due to this using a sliding
   power switch with a different footprint to that of the push button style.
 * Modern power circuit by Zaxour (requires 9V DC PSU rated for at least 1A).
-* Integrated switchless region mod using PIC16F630 or compatible programmed with
-  the `switchless_xxxx.hex` files in this repo ([source here][Switchless]). Use
-  the file that matches your LED's pinout.
+* Integrated switchless region mod using PIC16F630 or compatible.
 * Integrated "Triple Bypass" mod for improved RGB and audio.
 * Provisional support for Sega Master System games via integrated mod by DogP.\*
 * Compatible with the original Sega CD/Mega CD.\*\*
@@ -213,6 +211,13 @@ is more than sufficient.
   may be preferable if you are using a video scaler. YMMV, so do what works for your
   particular setup.
 
+* If using the integrated switchless mod, note that these must be programmed
+  differently depending on your Neptune board's revision. For 1.5 and earlier, use
+  the `switchless_xxxx.hex` files in this repo that match your LED's pinout. For
+  1.6 and later, support for in-game reset functionality was added, which reassigns
+  some pins of the PIC. For this reason you **must** use
+  [Electroanalog's Neptune-SRB firmware][Switchless] on these boards.
+
 * Unofficial support from experienced builders and other knowledgable individuals is
   available (on a purely voluntary basis) in [this help channel][Discord] on
   *Dubesinhower's Modding Community* Discord server.
@@ -322,7 +327,7 @@ expressed or implied, including, but not limited to, the implied warranties
 of merchantability and fitness for a particular purpose.
 
 [Releases]: https://github.com/Board-Folk/Neptune/releases
-[Switchless]: https://github.com/atomicretronl/switchless
+[Switchless]: https://github.com/Electroanalog/Neptune-SRB/releases
 [Revisions]: https://segaretro.org/Sega_Mega_Drive/Hardware_revisions
 [ASICs]: https://consolemods.org/wiki/Genesis:ASIC_Information
 [240p]: https://junkerhq.net/xrgb/index.php?title=240p_test_suite
