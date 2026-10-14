@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Z80 and Audio")
-		(date "2025-06-23")
-		(rev "1.5")
+		(date "2026-10-14")
+		(rev "1.6")
 		(company "By Cosam")
 		(comment 1 "Neptune")
 	)
