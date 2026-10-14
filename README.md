@@ -216,7 +216,9 @@ is more than sufficient.
   the `switchless_xxxx.hex` files in this repo that match your LED's pinout. For
   1.6 and later, support for in-game reset functionality was added, which reassigns
   some pins of the PIC. For this reason you **must** use
-  [Electroanalog's Neptune-SRB firmware][Switchless] on these boards.
+  [Electroanalog's Neptune-SRB firmware][Switchless] on these boards. This later
+  firmware can also be used on older boards if modified appropriately as described
+  in the Neptune-SRB documentation.
 
 * Unofficial support from experienced builders and other knowledgable individuals is
   available (on a purely voluntary basis) in [this help channel][Discord] on
@@ -327,7 +329,7 @@ expressed or implied, including, but not limited to, the implied warranties
 of merchantability and fitness for a particular purpose.
 
 [Releases]: https://github.com/Board-Folk/Neptune/releases
-[Switchless]: https://github.com/Electroanalog/Neptune-SRB/releases
+[Switchless]: https://github.com/Electroanalog/Neptune-SRB
 [Revisions]: https://segaretro.org/Sega_Mega_Drive/Hardware_revisions
 [ASICs]: https://consolemods.org/wiki/Genesis:ASIC_Information
 [240p]: https://junkerhq.net/xrgb/index.php?title=240p_test_suite
