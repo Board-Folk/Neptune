@@ -126,11 +126,13 @@ It is assumed that most parts will be obtained from donor Mega Drive/Genesis and
 use a 315-5660 or [compatible ASIC][ASICs]. Be aware that some ASICs (e.g. the
 315-5660-10 variant found on some Japanese revisions) are known not to support 50
 Hz operation which will limit the usefullness of the integrated switchless region
-mod. All 32X revisions should be usable but this has not yet been confirmed. Note
-the differences in parts between MD and 32X revisions/regions as documented in the
-schematics. It is probably not feasible to list the differences between all possible
-revisions but should you work out a solution for a particular donor board, please
-let us know so we can include it in this documentation.
+mod. If using the 315-5660-01 chip, a 1K pull-down resistor is required on the
+`/SC` line, for which the footprint of the usually unused capacitor C15 provides a
+convenient location. All 32X revisions should be usable but this has not yet been
+confirmed. Note the differences in parts between MD and 32X revisions/regions as
+documented in the schematics. It is probably not feasible to list the differences
+between all possible revisions but should you work out a solution for a particular
+donor board, please let us know so we can include it in this documentation.
 
 Parts marked "\*" have different values based on region or revision, or may not be
 present on some revisions, so refer to the schematic and your donor hardware.
