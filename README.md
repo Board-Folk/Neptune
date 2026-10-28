@@ -83,6 +83,12 @@ any such modification will require the trace between +5V and +9V be cut.
 
 ## PCB Production
 
+**NOTE**: it is highly discouraged to have boards manufactured based on the current
+state of the master branch or indeed any commit other than those tagged as actual
+[releases][Releases]. Any other commits may contain errors or half-finished features
+and using them limits the ability of others to provide support due to the unknown
+state of the boards.
+
 Minimum track widths, clearances and via sizes are within the standard
 offering of modern PCB fabricators. Gerber files are generated with the relevant
 options for [JLCPCB](https://jlcpcb.com/) (included in the "Assets" section of
